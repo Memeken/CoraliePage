@@ -6,6 +6,18 @@ h1 {
     font-weight: bold;
 }
 
+h1:hover{
+    color: black;
+}
+
+.coralieD:hover{
+    background-color: burlywood;
+}
+
+.CV{
+    font-family: 'Amatic SC', cursive;
+}
+
 .menu{
     filter: white;
 }
@@ -29,21 +41,18 @@ p.title{
     font-size: 60px;
     text-shadow: 3px 3px 5px rgb(5, 5, 5), 0 0 8em rgb(0, 0, 0), 0 0 0.8em rgb(2, 2, 2);
 }
+
 .font{
     width:100%;
     height: 100%;
     position: absolute;
 }
 
-.img_logo{
-    margin-left: 48%;
-    margin-bottom: 4%;
-    margin-top: 4%;
-}
-
 .logo{
     width: 100%;
-    
+    background-color: tan;
+    text-align: center;
+    vertical-align: middle; 
 }
 
 .hob{
@@ -51,5 +60,107 @@ p.title{
 }
 
 .logo_hob{
-    margin-left: 10%;
+    margin-left: 12%;
 }
+
+.retourHaut{
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 44%;
+    width: 100%;
+}
+
+.legal{
+    color: black;
+    text-decoration-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: rgb(168, 166, 166);
+    
+  }
+  
+.skills{
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+  }
+  
+.html{
+      width: 90%; 
+      background-color: rgb(156, 73, 67);
+}
+
+.css{
+    width: 80%; 
+    background-color: rgb(156, 73, 67);
+}
+
+.php{
+    width: 70%; 
+    background-color: rgb(156, 73, 67);
+}
+
+.mysql{
+    width: 60%; 
+    background-color: rgb(156, 73, 67);
+}
+
+.js{
+    width: 60%; 
+    background-color: rgb(156, 73, 67);
+}
+
+.procreate{
+    width: 90%; 
+    background-color: rgb(122, 59, 54);
+}
+
+.ae{
+    width: 60%; 
+    background-color:  rgb(122, 59, 54);
+}
+
+.ai{
+    width: 80%; 
+    background-color:  rgb(122, 59, 54);
+}
+
+.ap{
+    width: 70%; 
+    background-color:  rgb(122, 59, 54);
+}
+
+.ain{
+    width: 60%; 
+    background-color:  rgb(122, 59, 54);
+}
+
+.wp{
+    width: 60%; 
+    background-color: rgb(58, 17, 14);
+}
+
+.bulma{
+    width: 80%; 
+    background-color: rgb(58, 17, 14);
+}
+
+.bootstrap{
+    width: 70%; 
+    background-color: rgb(58, 17, 14);
+}
+
+.symfony{
+    width: 50%; 
+    background-color: rgb(58, 17, 14);
+}
+
+.link:hover{
+    background-color: burlywood;
+}
+
